@@ -1,0 +1,3 @@
+import {ServiceList,CTA} from '@/components/site';
+export const metadata={title:'Services',description:'Explore Cogriss web, mobile, AI, cloud, design, QA, security, consulting and dedicated-team services.'};
+export default function Services(){return <main><section className="page-intro section-pad"><div className="eyebrow">OUR CAPABILITIES</div><h1>A big picture.<br/><span>Every detail.</span></h1><p>Strategy, design, development and ongoing care. The skills your product needs, working together from day one.</p></section><section className="section-pad services-section"><ServiceList/></section><CTA/></main>}
